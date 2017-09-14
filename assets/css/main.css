@@ -2096,7 +2096,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/mainbg.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2119,6 +2119,11 @@
 			margin: 0 auto;
 			display: inline-block;
 			vertical-align: middle;
+		}
+
+		#header .inner img{
+			width:1000px;
+			height:250px;
 		}
 
 		#header header {
@@ -2541,6 +2546,11 @@
 
 	@media screen and (max-width: 1680px) {
 
+		#header .inner img{
+			width:1000px;
+			height:250px;
+		}
+
 		/* Basic */
 
 			body, input, textarea, select {
@@ -2568,6 +2578,11 @@
 /* Normal */
 
 	@media screen and (max-width: 1280px) {
+
+		#header .inner img{
+			width:1000px;
+			height:250px;
+		}
 
 		/* Basic */
 
@@ -2616,6 +2631,10 @@
 
 	@media screen and (max-width: 840px) {
 
+		#header .inner img{
+			width:640px;
+			height:160px;
+		}
 		/* Basic */
 
 			body, input, textarea, select {
@@ -2658,6 +2677,11 @@
 	}
 
 	@media screen and (max-width: 736px) {
+
+		#header .inner img{
+			width:640px;
+			height:160px;
+		}
 
 		/* Basic */
 
